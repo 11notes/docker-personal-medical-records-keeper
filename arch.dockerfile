@@ -17,18 +17,19 @@
 # ║                       BUILD                         ║
 # ╚═════════════════════════════════════════════════════╝
 # :: PERSONAL-MEDICAL-RECORDS-KEEPER / SOURCE
-  FROM alpine AS src
+  FROM 11notes/python:wheel-${PYTHON_VERSION} AS src
   ARG APP_VERSION \
       APP_ROOT \
       BUILD_SRC \
       BUILD_ROOT
-  COPY --from=util-bin / /
-  RUN set -ex; \
-    apk --update --no-cache add \
-      git;
 
   RUN set -ex; \
     eleven git clone ${BUILD_SRC} v${APP_VERSION};
+
+  RUN set -ex; \
+    cd ${BUILD_ROOT}; \
+    pip install pur; \
+    pur -r ./requirements.txt;
 
 # :: PERSONAL-MEDICAL-RECORDS-KEEPER / FRONTEND
   FROM node:lts-alpine AS frontend
