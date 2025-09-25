@@ -26,11 +26,6 @@
   RUN set -ex; \
     eleven git clone ${BUILD_SRC} v${APP_VERSION};
 
-  RUN set -ex; \
-    cd ${BUILD_ROOT}; \
-    pip install pur; \
-    pur -r ./requirements.txt;
-
 # :: PERSONAL-MEDICAL-RECORDS-KEEPER / FRONTEND
   FROM node:lts-alpine AS frontend
   ARG BUILD_ROOT
@@ -58,11 +53,19 @@
   ARG BUILD_ROOT
   COPY --from=src ${BUILD_ROOT}/requirements.txt /
   USER root
+
+  RUN set -ex; \
+    apk --no-cache --update add \
+      libpq-dev \
+      zlib-dev \
+      libjpeg-turbo-dev; \
+    pip install \
+      typing-extensions;
+
   RUN set -ex; \
     mkdir -p /pip/wheels; \
     pip wheel \
       --wheel-dir /pip/wheels \
-      -f https://11notes.github.io/python-wheels/ \
       -r /requirements.txt;
 
 # :: PERSONAL-MEDICAL-RECORDS-KEEPER / BACKEND
@@ -81,7 +84,6 @@
     pip install \
       --no-index \
       -f /pip/wheels \
-      -f https://11notes.github.io/python-wheels/ \
       -r /requirements.txt; \
     rm -rf /pip/wheels; \
     rm -f /requirements.txt;
