@@ -1,6 +1,7 @@
 {
   "image": "11notes/personal-medical-records-keeper",
-  "name": "Personal Medical Records Keeper",
+  "platform":"amd64,arm64",
+  "name": "personal-medical-records-keeper",
   "root": "/pmrk",
   "semver": {
     "version": "0.29.0"

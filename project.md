@@ -1,8 +1,6 @@
 ${{ image: Dashboard.png }}
 
-${{ content_synopsis }} This image will give you a [rootless](https://github.com/11notes/RTFM/blob/main/linux/container/image/rootless.md) and leightweight ${{ json_name }} installation. Perfect to store your medical records as safe as possible.
-
-${{ content_arr_stack }}
+${{ content_synopsis }} This image will give you a [rootless](https://github.com/11notes/RTFM/blob/main/linux/container/image/rootless.md) and leightweight Personal Medical Records Keeper installation. Perfect to store your medical records as safe as possible.
 
 ${{ content_uvp }} Good question! Because ...
 
@@ -10,7 +8,6 @@ ${{ github:> [!IMPORTANT] }}
 ${{ github:> }}* ... this image runs [rootless](https://github.com/11notes/RTFM/blob/main/linux/container/image/rootless.md) as 1000:1000
 ${{ github:> }}* ... this image is auto updated to the latest version via CI/CD
 ${{ github:> }}* ... this image is built and compiled from source
-${{ github:> }}* ... this image supports 32bit architecture
 ${{ github:> }}* ... this image has a health check
 ${{ github:> }}* ... this image runs read-only
 ${{ github:> }}* ... this image is automatically scanned for CVEs before and after publishing
