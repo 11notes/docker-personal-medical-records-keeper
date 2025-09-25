@@ -1,0 +1,18 @@
+{
+  "image": "11notes/personal-medical-records-keeper",
+  "name": "Personal Medical Records Keeper",
+  "root": "/pmrk",
+  "semver": {
+    "version": "0.29.0"
+  },
+  "readme": {
+    "description": "Run personal-medical-records-keeper rootless, distroless and secure by default!",
+    "introduction": "[personal-medical-records-keeper](https://github.com/afairgiant/Personal-Medical-Records-Keeper) (created by [traah](https://www.reddit.com/user/traah/)) is a lightweight, self-hosted application for managing your personal medical information. Keep your health records organized and accessible while maintaining complete control over your data privacy.",
+    "built": {
+      "afairgiant/personal-medical-records-keeper": "https://github.com/afairgiant/Personal-Medical-Records-Keeper"
+    },
+    "comparison": {
+      "images": ["ghcr.io/afairgiant/personal-medical-records-keeper/medical-records"]
+    }
+  }
+}
