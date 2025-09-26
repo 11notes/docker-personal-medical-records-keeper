@@ -1,7 +1,7 @@
 ![banner](https://github.com/11notes/defaults/blob/main/static/img/banner.png?raw=true)
 
-# PERSONAL MEDICAL RECORDS KEEPER
-![size](https://img.shields.io/docker/image-size/11notes/personal-medical-records-keeper/0.29.0?color=0eb305)![5px](https://github.com/11notes/defaults/blob/main/static/img/transparent5x2px.png?raw=true)![version](https://img.shields.io/docker/v/11notes/personal-medical-records-keeper/0.29.0?color=eb7a09)![5px](https://github.com/11notes/defaults/blob/main/static/img/transparent5x2px.png?raw=true)![pulls](https://img.shields.io/docker/pulls/11notes/personal-medical-records-keeper?color=2b75d6)![5px](https://github.com/11notes/defaults/blob/main/static/img/transparent5x2px.png?raw=true)[<img src="https://img.shields.io/github/issues/11notes/docker-PERSONAL MEDICAL RECORDS KEEPER?color=7842f5">](https://github.com/11notes/docker-PERSONAL MEDICAL RECORDS KEEPER/issues)![5px](https://github.com/11notes/defaults/blob/main/static/img/transparent5x2px.png?raw=true)![swiss_made](https://img.shields.io/badge/Swiss_Made-FFFFFF?labelColor=FF0000&logo=data:image/svg%2bxml;base64,PHN2ZyB2ZXJzaW9uPSIxIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDMyIDMyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxyZWN0IHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0idHJhbnNwYXJlbnQiLz4KICA8cGF0aCBkPSJtMTMgNmg2djdoN3Y2aC03djdoLTZ2LTdoLTd2LTZoN3oiIGZpbGw9IiNmZmYiLz4KPC9zdmc+)
+# PERSONAL-MEDICAL-RECORDS-KEEPER
+![size](https://img.shields.io/docker/image-size/11notes/personal-medical-records-keeper/0.29.0?color=0eb305)![5px](https://github.com/11notes/defaults/blob/main/static/img/transparent5x2px.png?raw=true)![version](https://img.shields.io/docker/v/11notes/personal-medical-records-keeper/0.29.0?color=eb7a09)![5px](https://github.com/11notes/defaults/blob/main/static/img/transparent5x2px.png?raw=true)![pulls](https://img.shields.io/docker/pulls/11notes/personal-medical-records-keeper?color=2b75d6)![5px](https://github.com/11notes/defaults/blob/main/static/img/transparent5x2px.png?raw=true)[<img src="https://img.shields.io/github/issues/11notes/docker-PERSONAL-MEDICAL-RECORDS-KEEPER?color=7842f5">](https://github.com/11notes/docker-PERSONAL-MEDICAL-RECORDS-KEEPER/issues)![5px](https://github.com/11notes/defaults/blob/main/static/img/transparent5x2px.png?raw=true)![swiss_made](https://img.shields.io/badge/Swiss_Made-FFFFFF?labelColor=FF0000&logo=data:image/svg%2bxml;base64,PHN2ZyB2ZXJzaW9uPSIxIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDMyIDMyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxyZWN0IHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0idHJhbnNwYXJlbnQiLz4KICA8cGF0aCBkPSJtMTMgNmg2djdoN3Y2aC03djdoLTZ2LTdoLTd2LTZoN3oiIGZpbGw9IiNmZmYiLz4KPC9zdmc+)
 
 Run personal-medical-records-keeper, rootless and with no bloat.
 
@@ -9,21 +9,10 @@ Run personal-medical-records-keeper, rootless and with no bloat.
 
 [personal-medical-records-keeper](https://github.com/afairgiant/Personal-Medical-Records-Keeper) (created by [traah](https://www.reddit.com/user/traah/)) is a lightweight, self-hosted application for managing your personal medical information. Keep your health records organized and accessible while maintaining complete control over your data privacy.
 
-![DASHBOARD](https://github.com/11notes/docker-Personal Medical Records Keeper/blob/master/img/Dashboard.png?raw=true)
+![DASHBOARD](https://github.com/11notes/docker-personal-medical-records-keeper/blob/master/img/Dashboard.png?raw=true)
 
 # SYNOPSIS 📖
-**What can I do with this?** This image will give you a [rootless](https://github.com/11notes/RTFM/blob/main/linux/container/image/rootless.md) and leightweight PERSONAL MEDICAL RECORDS KEEPER installation. Perfect to store your medical records as safe as possible.
-
-# ARR STACK IMAGES 🏴‍☠️
-This image is part of the so called arr-stack (apps to pirate and manage media content). Here is the list of all it's companion apps for the best pirate experience:
-
-- [11notes/configarr](https://github.com/11notes/docker-configarr) - as your TRaSH guide syncer for Sonarr and Radarr
-- [11notes/plex](https://github.com/11notes/docker-plex) - as your media server
-- [11notes/prowlarr](https://github.com/11notes/docker-prowlarr) - to manage all your indexers
-- [11notes/qbittorrent](https://github.com/11notes/docker-qbittorrent) - as your torrent client
-- [11notes/radarr](https://github.com/11notes/docker-radarr) - to manage your films
-- [11notes/sabnzbd](https://github.com/11notes/docker-sabnzbd) - as your usenet client
-- [11notes/sonarr](https://github.com/11notes/docker-sonarr) - to manage your TV shows
+**What can I do with this?** This image will give you a [rootless](https://github.com/11notes/RTFM/blob/main/linux/container/image/rootless.md) and leightweight Personal Medical Records Keeper installation. Perfect to store your medical records as safe as possible.
 
 # UNIQUE VALUE PROPOSITION 💶
 **Why should I run this image and not the other image(s) that already exist?** Good question! Because ...
@@ -32,7 +21,6 @@ This image is part of the so called arr-stack (apps to pirate and manage media c
 >* ... this image runs [rootless](https://github.com/11notes/RTFM/blob/main/linux/container/image/rootless.md) as 1000:1000
 >* ... this image is auto updated to the latest version via CI/CD
 >* ... this image is built and compiled from source
->* ... this image supports 32bit architecture
 >* ... this image has a health check
 >* ... this image runs read-only
 >* ... this image is automatically scanned for CVEs before and after publishing
@@ -46,6 +34,7 @@ Below you find a comparison between this image and the most used or original one
 
 | **image** | **size on disk** | **init default as** | **[distroless](https://github.com/11notes/RTFM/blob/main/linux/container/image/distroless.md)** | supported architectures
 | ---: | ---: | :---: | :---: | :---: |
+| 11notes/personal-medical-records-keeper:0.29.0 | 145MB | 1000:1000 | ❌ | amd64, arm64 |
 | afairgiant/personal-medical-records-keeper/medical-records | 333MB | 0:0 | ❌ | amd64, arm64 |
 
 # VOLUMES 📁
@@ -138,7 +127,7 @@ To find out how you can change the default UID/GID of this container image, cons
 # MAIN TAGS 🏷️
 These are the main tags for the image. There is also a tag for each commit and its shorthand sha256 value.
 
-* [0.29.0](https://hub.docker.com/r/11notes/Personal Medical Records Keeper/tags?name=0.29.0)
+* [0.29.0](https://hub.docker.com/r/11notes/personal-medical-records-keeper/tags?name=0.29.0)
 
 ### There is no latest tag, what am I supposed to do about updates?
 It is of my opinion that the ```:latest``` tag is dangerous. Many times, I’ve introduced **breaking** changes to my images. This would have messed up everything for some people. If you don’t want to change the tag to the latest [semver](https://semver.org/), simply use the short versions of [semver](https://semver.org/). Instead of using ```:0.29.0``` you can use ```:0``` or ```:0.29```. Since on each new version these tags are updated to the latest version of the software, using them is identical to using ```:latest``` but at least fixed to a major or minor version.
@@ -153,7 +142,7 @@ docker pull quay.io/11notes/personal-medical-records-keeper:0.29.0
 ```
 
 # SOURCE 💾
-* [11notes/personal-medical-records-keeper](https://github.com/11notes/docker-PERSONAL MEDICAL RECORDS KEEPER)
+* [11notes/personal-medical-records-keeper](https://github.com/11notes/docker-PERSONAL-MEDICAL-RECORDS-KEEPER)
 
 # PARENT IMAGE 🏛️
 * [${{ json_readme_parent_image }}](${{ json_readme_parent_url }})
@@ -168,6 +157,6 @@ docker pull quay.io/11notes/personal-medical-records-keeper:0.29.0
 >* Use Let’s Encrypt DNS-01 challenge to obtain valid SSL certificates for your services
 
 # ElevenNotes™️
-This image is provided to you at your own risk. Always make backups before updating an image to a different version. Check the [releases](https://github.com/11notes/docker-Personal Medical Records Keeper/releases) for breaking changes. If you have any problems with using this image simply raise an [issue](https://github.com/11notes/docker-Personal Medical Records Keeper/issues), thanks. If you have a question or inputs please create a new [discussion](https://github.com/11notes/docker-Personal Medical Records Keeper/discussions) instead of an issue. You can find all my other repositories on [github](https://github.com/11notes?tab=repositories).
+This image is provided to you at your own risk. Always make backups before updating an image to a different version. Check the [releases](https://github.com/11notes/docker-personal-medical-records-keeper/releases) for breaking changes. If you have any problems with using this image simply raise an [issue](https://github.com/11notes/docker-personal-medical-records-keeper/issues), thanks. If you have a question or inputs please create a new [discussion](https://github.com/11notes/docker-personal-medical-records-keeper/discussions) instead of an issue. You can find all my other repositories on [github](https://github.com/11notes?tab=repositories).
 
-*created 26.09.2025, 01:53:20 (CET)*
+*created 26.09.2025, 02:03:30 (CET)*
