@@ -55,17 +55,10 @@
   USER root
 
   RUN set -ex; \
-    apk --no-cache --update add \
-      libpq-dev \
-      zlib-dev \
-      libjpeg-turbo-dev; \
-    pip install \
-      typing-extensions;
-
-  RUN set -ex; \
     mkdir -p /pip/wheels; \
     pip wheel \
       --wheel-dir /pip/wheels \
+      -f https://11notes.github.io/python-wheels/ \
       -r /requirements.txt;
 
 # :: PERSONAL-MEDICAL-RECORDS-KEEPER / BACKEND
